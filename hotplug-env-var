@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# log environment variable from hotplug events!
+exec /user/bin/env > /tmp/hp-env
